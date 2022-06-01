@@ -1,0 +1,45 @@
+html{
+    background-color:beige;
+}
+body{
+    color:brown
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    margin: 3px;
+}
+header h1{
+    font: size 50px;
+    font-weight: bold;
+    margin: 5px;
+}
+header h2{
+    font: size 30px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 5px;
+}
+article{
+    margin:auto;
+    vertical-align: center;
+    border-style:dotted;
+    border-width: 5px;
+    border-color: firebrick;
+    border-radius: 20px;
+    padding: 8px;
+    width:fit-content;
+    height:fit-content;
+}
+nav{
+    font-size: 20px;
+    padding-left: 10px;
+}
+footer{
+    text-align: center;
+    margin:auto;
+    font-size: 45px;
+}
+a{
+    color:firebrick;
+}
