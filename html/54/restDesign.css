@@ -29,7 +29,7 @@ header h2 {
     letter-spacing: 6px;
     text-transform: lowercase;
     text-shadow: 2px 2px 1px green;
-    transform: skew(323deg,360deg);
+    transform: skew(323deg, 360deg);
 }
 
 article {
@@ -67,32 +67,60 @@ a:hover {
 a:visited {
     font-style: italic;
 }
-.inline-list, .inline-list li{
+
+.inline-list,
+.inline-list li {
     list-style: none;
     vertical-align: middle;
     display: inline;
-    padding:0%;
+    padding: 0%;
 }
+
 #copyright {
     text-align: center;
     color: black;
     font-style: italic;
     font-size: small;
 }
+
 .description {
-     color: rgba(165, 42, 42, 0.712);
-     font-size: smaller;
-     max-width: 80%;
-     margin-left: 10%;
+    color: rgba(165, 42, 42, 0.712);
+    font-size: smaller;
+    max-width: 80%;
+    margin-left: 10%;
 }
+
 .menu-item {
     font-size: larger;
     text-align: center;
+    display: inline-block;
+    padding: 5%;
 }
- .price {
+
+.full-menu {
+    text-align: center;
+}
+
+.menu-img {
+    float: left;
+    padding-left: 20%;
+    padding-right: 2%;
+}
+
+.price {
     color: green;
     font-style: italic;
 }
+
 .item-description {
     line-height: 70%;
+    padding-left: 3%;
+}
+
+.display-menu-item {
+    text-align: center;
+}
+
+footer {
+    clear: left;
 }

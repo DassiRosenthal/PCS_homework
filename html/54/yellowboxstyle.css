@@ -1,0 +1,27 @@
+li{
+    list-style: none;
+    line-height: 3em;
+    padding: 2em 2em;
+    background: yellow;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    vertical-align: middle;
+    text-align: center;
+    margin: 46px;
+    width: 10em;
+    display:inline-block;
+}
+html{
+    background-color: black;
+}
+body{
+    background-color: white;
+    width:90%;
+    /*transform:translate(5%,5%)*/
+    margin:auto;
+    background-size:cover;
+}
+p{
+    padding:2em;
+}
