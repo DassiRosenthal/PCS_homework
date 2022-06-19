@@ -19,6 +19,7 @@ header h1 {
     text-shadow: 4px 4px 3px rgba(255, 230, 0, 0.877);
     line-height: 28px;
     text-transform: uppercase;
+    font-family: 'Fascinate Inline', sans-serif;
 }
 
 header h2 {
@@ -30,6 +31,7 @@ header h2 {
     text-transform: lowercase;
     text-shadow: 2px 2px 1px green;
     transform: skew(323deg, 360deg);
+    font-family: 'Shadows Into Light', 'Indie Flower', cursive;
 }
 
 article {
@@ -58,6 +60,7 @@ footer {
 a {
     color: firebrick;
     text-decoration: none;
+    font-family: 'Aladin', cursive;
 }
 
 a:hover {
@@ -74,6 +77,7 @@ a:visited {
     vertical-align: middle;
     display: inline;
     padding: 0%;
+    font-family: 'Aladin', cursive;
 }
 
 #copyright {
@@ -88,13 +92,16 @@ a:visited {
     font-size: smaller;
     max-width: 80%;
     margin-left: 10%;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
-.menu-item {
-    font-size: larger;
+.menu-item,
+.menu-item a {
     text-align: center;
     display: inline-block;
     padding: 5%;
+    font-family: 'Neucha', cursive;
+    font-size: 1.5em;
 }
 
 .full-menu {
@@ -113,8 +120,10 @@ a:visited {
 }
 
 .item-description {
-    line-height: 70%;
+    line-height: 100%;
     padding-left: 3%;
+    font-family: 'Neucha', cursive;
+    font-size: 2.5em;
 }
 
 .display-menu-item {
