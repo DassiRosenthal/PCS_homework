@@ -38,13 +38,17 @@ header h2 {
 article {
     margin: auto;
     vertical-align: center;
-    border-style: dotted;
+    /*border-style: dotted;
     border-width: 5px;
     border-color: firebrick;
-    border-radius: 20px;
+    border-radius: 20px;*/
     padding: 8px;
     width: fit-content;
     height: fit-content;
+}
+
+#menulink {
+    font-size: larger;
 }
 
 nav {
@@ -68,6 +72,7 @@ div.pop-up {
     line-height: 134%;
     padding-top: 1em;
     padding-bottom: 1em;
+    visibility: hidden;
 }
 
 .x-pop-up {
@@ -79,9 +84,10 @@ div.pop-up {
 
 .button:active {
     background-color: red;
-    width:2px;
+    width: 2px;
     visibility: hidden;
 }
+
 
 @media screen and (max-width:800px) {
     div.pop-up {
@@ -93,6 +99,7 @@ div.pop-up {
 footer {
     text-align: center;
     margin: auto;
+    font-size: 45px;
 }
 
 
@@ -144,14 +151,20 @@ h1:not(img+h1) {
 }
 
 
-.description {
+#description {
     color: rgba(165, 42, 42, 0.712);
     font-size: smaller;
     max-width: 80%;
     margin-left: 10%;
     font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 200px;
 }
-p:not(.item-description>p)::first-letter{
+
+#hours {
+    margin-top: 200px;
+}
+
+p:not(.item-description>p)::first-letter {
     font-style: italic;
 }
 
@@ -190,9 +203,10 @@ img~img {
     border-style: dashed;
 }
 
-article img:first-child{
-    border-style:dashed;
+article img:first-child {
+    border-style: dashed;
 }
+
 .item-description {
     line-height: 100%;
     padding-left: 3%;
@@ -213,3 +227,56 @@ footer {
     clear: left;
 }
 
+
+table {
+    width: 75%;
+    /*border-collapse: collapse;*/
+    margin: auto;
+    border-color: burlywood;
+    border-style: solid;
+    /*font-size: 100%;*/
+    margin-bottom: 300px;
+}
+
+td {
+    border-color: burlywood;
+    border-style: solid;
+}
+
+tr :nth-child(1) {
+    font-style: italic;
+}
+
+tr :nth-child(even) {
+    background-color: rgba(222, 184, 135, 0.616);
+}
+
+tr :nth-child(8) {
+
+    border-color: red;
+}
+
+#feedback {
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 90%;
+    margin-top: 0px;
+}
+
+input {
+    height: 2.5em;
+}
+
+textarea {
+    width: 60%;
+}
+
+#submit {
+    height: 80px;
+    width: 160px;
+    font-size: 30px;
+
+}
