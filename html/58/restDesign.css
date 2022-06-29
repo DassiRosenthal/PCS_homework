@@ -1,0 +1,288 @@
+html {
+    background-color: beige;
+}
+
+body {
+    color: brown;
+    margin-bottom: 120px;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    margin: 3px;
+}
+
+header h1 {
+    font: size 50px;
+    font-weight: bold;
+    margin: 5px;
+    text-shadow: 4px 4px 3px rgba(255, 230, 0, 0.877);
+    line-height: 28px;
+    text-transform: uppercase;
+    font-family: 'Fascinate Inline', sans-serif;
+}
+
+header h2 {
+    font: size 30px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 5px;
+    letter-spacing: 6px;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 1px green;
+    transform: skew(323deg, 360deg);
+    font-family: 'Shadows Into Light', 'Indie Flower', cursive;
+}
+
+/*article {
+    margin: auto;
+    vertical-align: center;
+    /*border-style: dotted;
+    border-width: 5px;
+    border-color: firebrick;
+    border-radius: 20px;*end comment
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+}*/
+#home-page-pics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#menulink {
+    font-size: larger;
+}
+
+nav {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+div.pop-up {
+    font-size: 45px;
+    border-color: red;
+    border-style: double;
+    border-radius: 3%;
+    background: black;
+    color: beige;
+    max-width: 800px;
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    line-height: 134%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    visibility: hidden;
+}
+
+.x-pop-up {
+    width: 50px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.button:active {
+    background-color: red;
+    width: 2px;
+    visibility: hidden;
+}
+
+
+@media screen and (max-width:800px) {
+    div.pop-up {
+        width: 550px;
+        font-size: 30px;
+    }
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    font-size: 45px;
+}
+
+
+a {
+    color: firebrick;
+    text-decoration: none;
+    font-family: 'Aladin', cursive;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+.inline-list,
+.inline-list li {
+    list-style: none;
+    vertical-align: middle;
+    display: inline;
+    padding: 0%;
+    font-family: 'Aladin', cursive;
+}
+
+/*#copyright {
+    position: fixed;
+    bottom: 0;
+    height: 4em;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: beige;
+    font-style: italic;
+    font-size: small;
+}*/
+h1:not(img+h1) {
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 0;
+    height: 4em;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: beige;
+    font-style: italic;
+    font-size: 25px;
+}
+
+
+#description {
+    color: rgba(165, 42, 42, 0.712);
+    font-size: smaller;
+    max-width: 80%;
+    margin-left: 10%;
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-bottom: 200px;
+}
+
+#hours {
+    margin-top: 200px;
+}
+
+p:not(.item-description>p)::first-letter {
+    font-style: italic;
+}
+
+.menu-item,
+.menu-item a {
+    text-align: center;
+    display: inline-block;
+    padding: 5%;
+    font-family: 'Neucha', cursive;
+    font-size: 1.5em;
+}
+
+.full-menu {
+    text-align: center;
+}
+
+.menu-img {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+
+/*.price {
+    color: green;
+    font-style: italic;
+}*/
+
+img+img {
+    border-style: double;
+    padding: 1px;
+}
+
+img~img {
+    border-style: dashed;
+}
+
+article img:first-child {
+    border-style: dashed;
+}
+
+.item-description {
+    line-height: 100%;
+    padding-left: 3%;
+    font-family: 'Neucha', cursive;
+    font-size: 2em;
+}
+
+div.price>p {
+    color: green;
+    font-style: italic;
+}
+
+.display-menu-item {
+    text-align: center;
+}
+
+footer {
+    clear: left;
+}
+
+
+table {
+    width: 75%;
+    /*border-collapse: collapse;*/
+    margin: auto;
+    border-color: burlywood;
+    border-style: solid;
+    /*font-size: 100%;*/
+    margin-bottom: 300px;
+}
+
+td {
+    border-color: burlywood;
+    border-style: solid;
+}
+
+tr :nth-child(1) {
+    font-style: italic;
+}
+
+tr :nth-child(even) {
+    background-color: rgba(222, 184, 135, 0.616);
+}
+
+tr :nth-child(8) {
+
+    border-color: red;
+}
+
+#feedback {
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 90%;
+    margin-top: 0px;
+}
+
+input {
+    height: 2.5em;
+}
+
+textarea {
+    width: 60%;
+}
+
+#submit {
+    height: 80px;
+    width: 160px;
+    font-size: 30px;
+
+}
