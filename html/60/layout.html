@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        display: grid;
+        grid-template-columns: 200px 50px 50px 200px;
+        grid-template-rows: 200px 50px 50px 200px;
+        grid-template-areas:
+            "red-box"
+            "purple-box"
+            "brown-box"
+            "green-box"
+            "little-red-box"
+            "little-purple-box"
+            "little-brown-box"
+            "little-green-box";
+        grid-template-areas:
+            " .         red-box           red-box      ."
+            "green-box  little-red-box    little-purple-box   purple-box"
+            "green-box  little-green-box  little-brown-box    purple-box"
+            ".          brown-box         brown-box    .";
+    }
+
+    .rbox {
+        background-color: red;
+        grid-area: red-box;
+    }
+
+    .lrbox {
+        background-color: red;
+        grid-area: little-red-box;
+    }
+
+    .pbox {
+        background-color: purple;
+        grid-area: purple-box;
+    }
+
+    .lpbox {
+        background-color: purple;
+        grid-area: little-purple-box;
+    }
+
+    .bbox {
+        background-color: brown;
+        grid-area: brown-box;
+    }
+
+    .lbbox {
+        background-color: brown;
+        grid-area: little-brown-box;
+    }
+
+    .gbox {
+        background-color: green;
+        grid-area: green-box;
+    }
+
+    .lgbox {
+        background-color: green;
+        grid-area: little-green-box;
+    }
+</style>
+
+<body>
+    <div class="rbox"></div>
+    <div class="pbox"></div>
+    <div class="bbox"></div>
+    <div class="gbox"></div>
+    <div class="lrbox"></div>
+    <div class="lpbox"></div>
+    <div class="lbbox"></div>
+    <div class="lgbox"></div>
+</body>
+
+</html>
