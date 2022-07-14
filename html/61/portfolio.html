@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Hadassa Rosenthal</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 5em;
+        }
+
+        h2 {
+            font-size: 4em;
+        }
+
+        button {
+            margin: 30px;
+        }
+
+        #carouselExampleControls {
+            position: absolute;
+            /*object-fit: cover;*/
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        img {
+            opacity: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Education</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Experience
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">C#</a></li>
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">SQL</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">HTML/CSS</a></li>
+                            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <p id="paragraph"></p>
+    <h1>Hadassa Rosenthal</h1>
+    <h2>Full Stack Developer</h2>
+    <button type="button" class="btn btn-outline-primary btn-lg">C#</button>
+    <button type="button" class="btn btn-outline-warning btn-lg">SQL</button>
+    <button type="button" class="btn btn-outline-success btn-lg">HTML/CSS</button>
+    <button type="button" class="btn btn-outline-danger btn-lg">JavaScript</button>
+    <script src="JavaScript/bootstrap.bundle.min.js"></script>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../pics/computer-programming.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../pics/written code.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../pics/programming languages.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container-sm">
+        <p>Hadassa began learning the basics of computers as an elementary school girl and learned a lot
+            more in high school. Loving the idea of programming a computer to run processes, Hadassa persued a higher
+            education in computers. Starting off in Perfessional Career Services, Hadassa began learning different
+            computer
+            programming languages including C#, SQL, HTML/CSS, JavaScript and more. While learning in PCS, Hadassa
+            decided
+            to take her education a step further and joined Woodmont College's Bachellors programming. In 2022 Hadassa
+            will
+            graduate Woodmont College with a Bachellors in Computer Science.
+        </p>
+    </div>
+</body>
+
+</html>
