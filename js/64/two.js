@@ -1,2 +1,3 @@
+/* global myName, email */
 "use strict";
-console.log("name:"+ name +" email address:" + email);
+console.log("name:" + myName + " email address:" + email);
